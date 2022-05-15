@@ -44,7 +44,7 @@ busqueda.addEventListener('input',(e) => { /// tira en consola todo lo que pasa 
  */
 /* busqueda.addEventListener('input',(e) => {
     if(e.target.value === ''){
-        console.log('fallo la validacion')
+        console.log('fallo la validacion');
     }
 });
  */

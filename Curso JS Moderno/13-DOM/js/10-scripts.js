@@ -7,7 +7,7 @@ const enlace = document.createElement('A');
 enlace.textContent = 'nuevo enlace';
 
 //agregar href
-enlace.tarjet = "_blank";
+enlace.target = "_blank";
 
 enlace.href = '/nuevo-enlace';
 
