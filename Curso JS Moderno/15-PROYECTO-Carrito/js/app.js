@@ -89,6 +89,7 @@ function carritoHTML(){
     //RECORRRE EL CARRITO Y GENERA EL HTML
     limpiarHTML();
     articulosCarrito.forEach(curso => {
+        //LO DEL REGLON DE ABAJO YA ES destructuring o destructurando para react 
         const {imagen, titulo, precio, cantidad, id} = curso
         const row = document.createElement('tr');
         row.innerHTML = `

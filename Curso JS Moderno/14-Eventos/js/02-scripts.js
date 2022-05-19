@@ -1,28 +1,28 @@
 const nav = document.querySelector('.navegacion');
 
-// registrar un eventos
-/* nav.addEventListener('click', () => {
+// registrar un evento
+ nav.addEventListener('click', () => {
     console.log('Entrando a la navegacion');
     }
 );
 nav.addEventListener('mouseenter', () => {
     console.log('Entrando a la navegacion');
     }
-); */
+); 
 
-/* nav.addEventListener('mouseenter', () => {
+ nav.addEventListener('mouseenter', () => {
     console.log('Entrando a la navegacion');
     nav.style.backgroundColor = 'white';
     }
-); */
+); 
 
-/* nav.addEventListener('mouseout', () => {
+ nav.addEventListener('mouseout', () => {
     console.log('saliendo a la navegacion');
     nav.style.backgroundColor = 'transparent';
     }
-); */
+); 
 
-/* nav.addEventListener('mouseup', () => {
+ nav.addEventListener('mouseup', () => {
     console.log('saliendo a la navegacion');
     nav.style.backgroundColor = 'transparent';
     }
@@ -32,7 +32,7 @@ nav.addEventListener('mousedown', () => {
     console.log('saliendo a la navegacion');
     nav.style.backgroundColor = 'transparent';
     }
-); */
+); 
 nav.addEventListener('dblclick', () => {
     console.log('saliendo a la navegacion');
     nav.style.backgroundColor = 'transparent';
