@@ -15,10 +15,8 @@ meses.forEach((mes, i) => {
     if(mes === "Abril"){
         console.log(i);
         console.log(mes);
-
     }
 })
-
 
 ///find index encontrara el indice de abri l
 const indice = meses.findIndex(mes => mes === "Abril");

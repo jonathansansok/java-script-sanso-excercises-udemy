@@ -12,5 +12,12 @@ function Producto(nombre, precio){
     this.disponible = true;
 }
 
+class Producto {
+    constructor(nombre, precio) {
+        this.nombre = nombre;
+        this.precio = precio;
+        this.disponible = true;
+    }
+}
 const producto2 = new Producto("monitor de 24 pulgadas", 500);
 console.log(producto2);
